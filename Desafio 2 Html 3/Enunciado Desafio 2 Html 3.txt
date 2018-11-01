@@ -1,0 +1,15 @@
+Enunciado de la tarea 2 de la sección 2732
+
+Según la imagen que se adjunta, realizar las siguientes actividades:
+
+1.- Descargar, instalar y usar Prepros (link: https://prepros.io/) en su computadora. Debe enviar printscreen del proceso de instalación y funcionamiento de Prepros.
+
+2.- Definir la estructura de la página web. Nota: en este desafío no se realizarán los estilos css sino que se creará solamente el cuerpo de la página web con html, debe incluir igualmente las imágenes adjuntadas.
+
+3.- Crear la estructura por medio de código HAML.
+
+4.- Debe enviar tanto el código HAML como HTML.
+
+5.- Usar correctamente las etiquetas semánticas y div's para la estructura de la página web.
+
+Descargar Archivo Adjunto
