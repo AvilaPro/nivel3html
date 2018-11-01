@@ -1,0 +1,19 @@
+!!!5
+%html
+	%head
+		%meta(charset="utf-8")
+		%title ejercicio 2
+		%link(href="css/main.css" rel="stylesheet" type="text/css")
+	%body
+		%form(name="frm-registro" class="formulario-registro")
+			.formulario-input-contenedor
+				%label Nombre
+				%input(type="text" name="nombre" class="formulario-input" placeholder="Ej: Pedro, Luisa")
+			.formulario-input-contenedor
+				%label Apellido
+				%input(type="text" name="apellido" class="formulario-input" placeholder="Ej: Rodriguez")
+			.formulario-input-contenedor
+				%label Correo
+				%input(type="text" name="correo" class="formulario-input" placeholder="Ej: anonimo@gmail.com")
+			.formulario-input-contenedor
+				%input(type="submit" name="registrar" class="formulario-button" value="Registrar")
