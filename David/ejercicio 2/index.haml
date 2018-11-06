@@ -1,0 +1,25 @@
+%html
+	%head
+		%meta(charset="utf-8")
+		%title sass avanzado
+		%link(href="css/estilos.css" rel="stylesheet" type="text/css")
+	%body
+		%form(name="frm-registro" class="formulario-registro")
+			.formulario-input-contenedor
+				%label(for="nombre") nombre
+				%input(type="text" name="nombre"
+				class="formulario-input"
+				placeholder="Ej: pedro, Luisa")
+			.formulario-input-contenedor
+				%label(for="apellido") apellido
+				%input(type="text" name="apellido"
+				class="formulario-input"
+				placeholder="Ej: Rodriguez")
+			.formulario-input-contenedor
+				%label(for="correo") correo
+				%input(type="text" name="correo"
+				class="formulario-input"
+				placeholder="Ej: david@gmail.com")
+			.formulario-input-contenedor
+				%input(type="submit" name="nombre"
+				class="formulario-button" value="Registrar")

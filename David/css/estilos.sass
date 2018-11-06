@@ -1,0 +1,24 @@
+$color-principal: red
+$espacios: 1.5%
+
+.proyecto
+	width: 30%
+	margin: auto
+	position: relative
+	overflow: hidden
+
+	&:hover .proyecto-texto
+		transform: translateY(-3%)
+	&-imagen
+		width: 100%
+	&-texto
+		background: $color-principal
+		padding: $espacios
+		position: absolute
+		bottom: 0
+		transform: translateY(101%)
+		transition: all .5s
+		font:
+			size: 20px
+			weight: bold
+			family: sans-serif
