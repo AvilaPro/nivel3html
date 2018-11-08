@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  height: 700px;
+  background: #5e42a6;
+}
+
+img {
+  width: 100%;
+}
+
+figure, article, nav {
+  position: relative;
+}
+
+figure {
+  top: 50px;
+  left: 80px;
+}
+
+figure img {
+  height: 100px;
+  width: 150px;
+}
+
+nav {
+  top: 160px;
+  float: right;
+  right: 22px;
+}
+
+nav li {
+  padding: 10px;
+}
+
+article {
+  padding: 25px;
+  float: left;
+}
+
+#contenido {
+  float: left;
+  text-align: center;
+}
+
+#titulo {
+  color: #5e42a6;
+}
+
+.oculto {
+  position: absolute;
+  width: 100%;
+  transform: translateY(100%);
+  transition: all 0.8s;
+  bottom: 0;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.oculto :nth-child(1) {
+  background: #fe7472;
+}
+
+.oculto :nth-child(2) {
+  background: #749ffe;
+}
+
+.oculto :nth-child(3) {
+  background: #5e42a6;
+}
+
+.oculto :nth-child(4) {
+  background: #ffb274;
+}
+
+.caja {
+  position: relative;
+  width: 80.6%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.caja :nth-child(1) {
+  background: #fe7472;
+}
+
+.caja :nth-child(2) {
+  background: #749ffe;
+}
+
+.caja :nth-child(3) {
+  background: #5e42a6;
+}
+
+.caja :nth-child(4) {
+  background: #ffb274;
+}
+
+.caja:hover .oculto {
+  transform: translateY(0%);
+}
+
+@media (min-width: 320px) {
+  /*320*/
+  header {
+    height: 400px;
+  }
+  nav {
+    position: relative;
+    top: 80px;
+    right: 110px;
+  }
+  nav li {
+    display: block;
+    border-bottom: 3px solid white;
+  }
+  article {
+    width: 100%;
+  }
+  #titulo {
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  /*768*/
+  figure {
+    width: 70%;
+  }
+  figure img {
+    width: 15%;
+    height: 100px;
+  }
+  header {
+    width: 100%;
+    height: 250px;
+  }
+  nav, #titulo, article {
+    position: relative;
+  }
+  nav {
+    top: 50px;
+    right: 50px;
+  }
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+  }
+  #titulo {
+    top: 20px;
+    left: 10px;
+  }
+  #contenido {
+    width: 100%;
+  }
+  article {
+    top: 50px;
+    padding: 15px;
+    width: 21%;
+    float: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  /*1024*/
+  header {
+    float: left;
+    width: 28%;
+    height: 700px;
+    background: #5e42a6;
+  }
+  #contenido {
+    float: left;
+    width: 70%;
+    text-align: center;
+  }
+  article {
+    top: 50px;
+    width: 40%;
+  }
+  figure img {
+    width: 50%;
+  }
+  nav {
+    position: relative;
+    top: 150px;
+    bottom: 60px;
+  }
+  nav li {
+    display: block;
+    border-bottom: 3px solid white;
+  }
+  #titulo, #contenido {
+    position: relative;
+  }
+  #titulo {
+    top: 50px;
+    left: 115px;
+  }
+  #contenido {
+    left: 100px;
+  }
+}
