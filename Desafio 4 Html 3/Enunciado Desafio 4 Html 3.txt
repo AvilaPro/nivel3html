@@ -1,0 +1,16 @@
+Enunciado de la tarea 4 de la sección 2732
+
+Según la imagen adjuntada, realizar las siguientes actividades:
+Nota: enviar todos los archivos SASS, CSS, HTML y printscreens.
+
+1.- Acceder a los siguientes enlaces y completar los niveles de los juegos: https://flexboxfroggy.com/#es y https://cssgridgarden.com/#es. Nota debe enviar printscreens que demuestren la culminación de todos los niveles.
+
+2.- Crear los archivos index.html y main.scss.
+
+3.- Maquetar idénticamente la página web usando CSS GRID y flexbox. No debe trabajar con floats o position.
+
+4.- Debe manejar variables, dividir el código en los archivos respectivos (estructura básica) de sass, heredar propiedades de una clase y crear un mixin para el inicio y final de cada columna y fila de CSS GRID por medio de parámetros, posteriormente deberá llamar al mixin en los selectores correspondientes con los valores. Nota: debe optimizar la mayor cantidad de código sass posible (entre 150 y 170 líneas).
+
+5.- Investigar sobre la propiedad css object-fit y aplicarla en las imágenes del portafolio. Además, al pasar el mouse sobre alguna de las imágenes del portafolio, éstas deben mostrar un fondo transparente como se muestra en la imagen adjuntada.
+
+Descargar Archivo Adjunto

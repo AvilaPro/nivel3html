@@ -1,0 +1,6 @@
+@mixin estilos-item($color, $tipo-display, $justify, $align){
+	background-color: $color;
+	display: $tipo-display;
+	justify-content: $justify;
+	align-items: $align;
+}

@@ -1,0 +1,50 @@
+@import '_mixins.scss';
+
+
+#barra1-logo{
+	height: 100px;
+	background-color: #81D4FA;
+}
+#barra1-nav{
+	@include estilos-item(#81D4FA, flex, center, center);
+	height: 100px;
+}
+#item{
+	padding-top: 30px;
+}
+p{
+	color: white;
+	font-weight: bold;
+	font-size: 90px;
+	font-family: Arial;
+}
+#item1{
+	@include estilos-item(#2196F3, flex, center, center);
+}
+#item2{
+	@include estilos-item(#FF5722, flex, center, center);
+	height: 240px;
+}
+#item3{
+	@include estilos-item(#8BC34A, flex, center, center);
+	height: 240px;
+}
+#item4{
+	@include estilos-item(#673AB7, flex, center, center);
+	height: 240px;
+}
+@media (max-width: 576px){
+	#barra1-logo{
+		display: none;
+	}
+}
+@media (min-width: 1024px){
+	#item1{
+		height: 200px;
+	}
+}
+@media (max-width: 1024px){
+	#item1{
+		height: 240px;
+	}
+}
