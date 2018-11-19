@@ -1,0 +1,15 @@
+Iconos de Bootstrap
+	https://getbootstrap.com/docs/3.3/components/
+
+Los iconos deben ser tratados como font.
+
+La pagina de JQuery
+	http://jquery.com
+
+	Dar click a Download e ir a donde dice: Using jQuery with a CDN.
+
+	Luego dar click en: https://code.jquery.com (O ir directamente a este enlace).
+	
+	Luego dar click en "minified"
+
+

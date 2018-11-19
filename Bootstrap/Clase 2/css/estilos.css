@@ -1,0 +1,20 @@
+header{
+	height: 55px;
+	background: white;
+}
+#banner{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.banner{
+	background: #cecece;
+	padding: 2%;
+}
+.glyphicon-fire{
+	margin-left: 10px;
+	font-size: 30px;
+}
+.btn-block{
+	width: 25%;
+	margin-left: 40%;
+}
