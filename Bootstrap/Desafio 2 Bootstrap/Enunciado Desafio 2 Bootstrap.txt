@@ -1,0 +1,15 @@
+Enunciado de la tarea 2 de la sección 2756
+
+Dada la imagen adjunta, realizar las siguientes actividades para replicar la maqueta definida en la misma:
+
+1.- Crear los archivos html y css correspondientes, además, debe enlazar los CDN de bootstrap versión 3.3.7.
+
+2.- Definir una barra de navegación como aparece en la imagen usando las clases de bootstrap. En este objetivo deberá editar también personalizar el css de la página web para que se asemeje al diseño original.
+
+3.- Usar la retícula de bootstrap para crear el layout de la página web (filas y columnas).
+
+4.- Agregar botones a la página web usando las clases para tamaños y colores de bootstrap.
+
+5.- Hacer uso de glyphicons dentro de la barra de navegación. En este objetivo debe posicionar y emplear los íconos tal cual se muestra en la imagen original.
+
+Descargar Archivo Adjunto
