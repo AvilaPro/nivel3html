@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desafio 4 Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
+    crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse" id="barra">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand col-md-2 hidden-xs" id="aheader">
+                        <img src="img/logo-cinema.png" class="img-responsive">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="form-group col-md-4">
+                        <div class="input-group ">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </span>
+                            <input type="text" name="buscar" id="buscar" placeholder="Search" class="form-control">
+                        </div>
+                    </div>                        
+                    <ul class="nav navbar-nav navbar-right col-md-4">
+                        <li>
+                            <a href="#">
+                                <button class="btn btn-info" data-toggle="modal" data-target="#ventanaRegistro">
+                                    Registrarse
+                                </button>
+                                <div class="modal fade" id="ventanaRegistro" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>FILM STUDIO</h3>
+                                            </div>
+                                            <div class="modal-body">                                                
+                                                <ul class="nav nav-tabs">
+                                                    <li class="active"><a href="#registro" data-toggle="tab">Registro</a></li>
+                                                    <li><a href="#logueo" data-toggle="tab">Inicio Sesion</a></li>
+                                                </ul>
+                                                <div class="tab-content">
+                                                    <div id="registro" class="tab-pane fade in active">
+                                                        <form role="form">
+                                                            <div class="form-group">
+                                                                <label for="usuario"><span class="glyphicon glyphicon-user"></span> Usuario</label>
+                                                                <input type="text" class="form-control" id="usuario" placeholder="Ingrese el nombre de usuario">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+                                                                <input type="text" class="form-control" id="email" placeholder="Ingrese su correo">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
+                                                                <input type="password" class="form-control" id="psw" placeholder="Enter password">
+                                                            </div>            
+                                                            <button type="submit" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-ok"></span> Registrar</button>
+                                                        </form>
+                                                    </div>
+                                                    <div id="logueo" class="tab-pane fade">
+                                                        <form role="form">
+                                                            <div class="form-group">
+                                                                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Email</label>
+                                                                <input type="text" class="form-control" id="usrname" placeholder="Ingrese su correo">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
+                                                                <input type="password" class="form-control" id="psw" placeholder="Ingrese su Contraseña">
+                                                            </div>
+                                                            <div class="checkbox">
+                                                                <label><input type="checkbox" value="" checked>Recuérdame</label>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Acceder</button>
+                                                        </form>
+                                                    </div>
+                                                </div>                                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <button class="btn btn-danger" data-toggle="modal" data-target="#ventanaLogueo">
+                                    Iniciar Sesion
+                                </button>
+                                <div class="modal fade" id="ventanaLogueo" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3>FILM STUDIO</h3>
+                                            </div>
+                                            <div class="modal-body">                                                
+                                                <ul class="nav nav-tabs">
+                                                    <li><a href="#registro1" data-toggle="tab">Registro</a></li>
+                                                    <li class="active"><a href="#logueo1" data-toggle="tab">Inicio Sesion</a></li>
+                                                </ul>
+                                                <div class="tab-content">
+                                                    <div id="registro1" class="tab-pane fade">
+                                                        <form role="form">
+                                                            <div class="form-group">
+                                                                <label for="usuario"><span class="glyphicon glyphicon-user"></span> Usuario</label>
+                                                                <input type="text" class="form-control" id="usuario" placeholder="Ingrese el nombre de usuario">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="email"><span class="glyphicon glyphicon-envelope"></span> Email</label>
+                                                                <input type="text" class="form-control" id="email" placeholder="Ingrese su correo">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
+                                                                <input type="password" class="form-control" id="psw" placeholder="Enter password">
+                                                            </div>            
+                                                            <button type="submit" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-ok"></span> Registrar</button>
+                                                        </form>
+                                                    </div>
+                                                    <div id="logueo1" class="tab-pane fade in active">
+                                                        <form role="form">
+                                                            <div class="form-group">
+                                                                <label for="usrname"><span class="glyphicon glyphicon-user"></span> Email</label>
+                                                                <input type="text" class="form-control" id="usrname" placeholder="Ingrese su correo">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Contraseña</label>
+                                                                <input type="password" class="form-control" id="psw" placeholder="Ingrese su Contraseña">
+                                                            </div>
+                                                            <div class="checkbox">
+                                                                <label><input type="checkbox" value="" checked>Recuérdame</label>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Acceder</button>
+                                                        </form>
+                                                    </div>
+                                                </div>                                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="migas">
+        <div class="container" id="container-barra2">
+            <div class="row" id="barraverde">
+                <div class="col-md-12" id="bv1">
+                    <ul class="list-inline" id="barra2">
+                        <li ><a href="#" class="navega">Inicio</a> </li>
+                        <li ><a href="#" class="navega">Peliculas</a></li>
+                        <li ><a href="#" class="navega">Estrenos</a></li>
+                        <li ><a href="#" class="navega">Series</a></li>
+                        <li ><a href="#" class="navega">Foro</a></li>
+                        <li ><a href="#" class="navega">Noticias</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="miSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#miSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#miSlider" data-slide-to="1"></li>
+            <li data-target="#miSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" >
+            <div class="item active tamano">
+                <img src="img/aquaman-banner.jpg" alt="" class="altodecarosuel">
+            </div>
+            <div class="item tamano">
+                <img src="img/ralph-rompe-internet-banner.jpg" alt="" class="altodecarosuel">
+            </div>
+            <div class="item tamano">
+                <img src="img/mortal-engines-banner.jpg" alt="" class="altodecarosuel">
+            </div>
+        </div>
+        <a href="#miSlider" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#miSlider" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </section>
+    <section id="miGaleria">
+        <div class="container">
+            <div id="tituloGaleria">
+                <h2>Proximos estrenos</h2>
+            </div>
+            <div class="galeriaPelis">
+                <div class="pelis">
+                    <img src="img/ralph_rompe_internet.jpg" alt="">
+                    <p class="nombrePeli">Ralph Rompe Internet</p>
+                </div>
+                <div class="pelis">
+                    <img src="img/robin_hood.jpg" alt="">
+                    <p class="nombrePeli">Robin Hood</p>
+                </div>
+                <div class="pelis">
+                    <img src="img/stubby_un_heroe_muy_especial.jpg" alt="">
+                    <p class="nombrePeli">Stubby, un heroe muy especial</p>
+                </div>
+                <div class="pelis">
+                    <img src="img/aquaman.jpg" alt="">
+                    <p class="nombrePeli">Aquaman</p>
+                </div>
+            </div>
+            <div class="botonMaspelis">
+                <a href="#vermas" 
+                data-toggle="collapse" 
+                class="btn btn-danger collapsed">
+                Ver más peliculas
+            </a>
+            </div>
+            <div id="vermas" class="collapse">
+                <div class="galeriaPelis">
+                    <div class="pelis">
+                        <img src="img/el_regreso_de_mary_poppins.jpg" alt="">
+                        <p class="nombrePeli">El regreso de Mary Poppins</p>
+                    </div>
+                    <div class="pelis">
+                        <img src="img/bohemian_rhapsody.jpg" alt="">
+                        <p class="nombrePeli">Bohemian Rhapsody</p>
+                    </div>
+                    <div class="pelis">
+                        <img src="img/venom.jpg" alt="">
+                        <p class="nombrePeli">Venom</p>
+                    </div>
+                    <div class="pelis">
+                        <img src="img/deadpool_2.jpg" alt="">
+                        <p class="nombrePeli">Deadpool 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container textofooter">
+            <p>&copy CADI F1. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

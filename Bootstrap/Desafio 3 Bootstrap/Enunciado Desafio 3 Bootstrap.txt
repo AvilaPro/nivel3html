@@ -1,0 +1,15 @@
+Enunciado de la tarea 3 de la sección 2756
+
+Dada la imagen adjunta, realizar las siguientes actividades:
+
+1.- Crear los archivos html y css correspondientes, además, debe enlazar los CDN de bootstrap versión 3.3.7. Asimismo, debe maquetar de forma idéntica al diseño original.
+
+2.- Definir una barra de navegación como aparece en la imagen usando las clases de bootstrap (navbar) y creando en el item "servicios" un menú desplegable. En este objetivo deberá editar también personalizar el css de la página web para que se asemeje al diseño original y él menú debe colapsar cuando llegue a la versión móvil.
+
+3.- Usar la retícula de bootstrap para crear el layout de la página web (filas y columnas). En este objetivo debe crear la versión para escritorio (que se mantendrá igualmente para la de tablet) y para teléfono, tal como se muestra en el diseño adjuntado.
+
+4.- Agregar el formulario de búsqueda de un vuelo, que aparece al inicio, con todos los componentes que provee bootstrap.
+
+5.- Usar los glyphicons en la página web.
+
+Descargar Archivo Adjunto

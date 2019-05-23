@@ -1,0 +1,93 @@
+#barra{
+    height: 150px;
+    margin-bottom: 0;
+}
+.navbar-header{
+    height: 150px;
+}
+#aheader{
+    height: 90px;
+    width: 50%
+}
+#buscar{
+    width: 100%
+}
+.form-group{
+    padding-top: 5%
+}
+.input-group{
+    width: 100%;
+}
+.navbar-right{
+    padding-top: 4%;
+}
+.migas{
+    background-color: #3cb290;
+    height: 50px;
+}
+#container-barra2{
+    height: 100%;
+}
+#barraverde{
+    height: 100%;
+}
+#bv1{
+    height: 100%;
+}
+#barra2{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+}
+.navega{
+    color: white;
+}
+#miSlider{
+    height: 500px;
+}
+.carousel-inner > .item > img{
+	height: 500px;
+	width: 100%;
+}
+.carousel-control{
+	opacity: .2;
+}
+.tamano{
+    height: 500px;
+}
+#miGaleria{
+    height: auto;
+    background-color: #262b36;
+}
+#tituloGaleria{
+    color: whitesmoke;
+    padding-top: 2%
+}
+.galeriaPelis{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%
+}
+.pelis{
+    color: #3cb290;
+}
+.nombrePeli{
+    padding-top: 4%;
+}
+.botonMaspelis{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+footer{
+    height: 100px;
+    background-color: #1c1f27;
+    color: whitesmoke;
+}
+.textofooter{
+    padding-top: 2%;
+}
+h3{
+    color: #3cb290;
+}

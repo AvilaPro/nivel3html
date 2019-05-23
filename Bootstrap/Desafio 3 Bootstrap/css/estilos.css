@@ -1,0 +1,63 @@
+#navcabecera{
+    height: 100px;
+    
+}
+#contcabecera1{
+    height: 150px;
+}
+#contcabecera{
+    height: 100%;
+}
+.navbar-brand{
+    padding-top: 0;
+    
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color:  #ffdd83;
+    font-weight: bold;
+}
+@media (min-width: 768px){
+    header{
+        height: 150px;
+    }
+    .navbar-nav>li {
+        height: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-right{
+        height: 150px;
+    }
+    #nav-a{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+}
+section{
+height: 700px;
+}
+.img-section{
+    background-image: url("../img/aventura.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    padding: 3%
+}
+#linea1{
+    font-family: 'Poppins', sans-serif;
+}
+#linea2{
+    font-family: 'Lobster', cursive;
+}
+
+
+

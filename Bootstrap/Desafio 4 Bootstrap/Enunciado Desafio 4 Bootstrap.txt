@@ -1,0 +1,14 @@
+Enunciado de la tarea 4 de la sección 2756
+
+Dadas la interfaces adjuntas en el link https://www.dropbox.com/s/bcsroy7c61eujno/Recursos-desafio4-framework-css.rar?dl=0, realizar las siguientes actividades:
+
+1.- Crear los archivos html y css correspondientes, además, debe enlazar los CDN de bootstrap versión 3.3.7. Asimismo, debe maquetar de forma idéntica al diseño original.
+
+2.- Definir una barra de navegación como aparece en la imagen usando las clases de bootstrap (navbar) agregando un formulario de búsqueda con un input-group-addon.
+
+3.- Usar la retícula de bootstrap para crear el layout de la página web (filas y columnas). Por otro lado, en la sección de próximos estrenos debe agregar un botón denominado "ver más películas" como se muestra en la imagen "portada" y al hacer click en él, por medio de las clases de bootstrap, debe aparecer una segunda fila oculta con películas según la imagen "portada-2".
+
+4.- Agregar un slider luego de la barra de navegación con las clases de bootstrap proyectando las imágenes adjuntas en la carpeta "banners".
+
+5.- Al hacer click en el botón "Registrarse" o "Iniciar Sesión" debe aparecer una ventana modal que contenga un menú tipo tabs dividido en dos formularios, uno para el registro de una nu
+eva cuenta y otro de acceso, tal y como se muestran en las imágenes "registro" e "inicio-sesion".
