@@ -1,0 +1,187 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fluid {
+  height: 100%;
+  margin: 0;
+}
+
+/*Logo - Marca de Agua*/
+.logo img {
+  position: absolute;
+  top: 40%;
+  height: 25%;
+  left: 25%;
+  z-index: 999;
+  opacity: 0.020;
+}
+
+/*Bloque 1 -Header- Layout 2*/
+.contenido12 {
+  height: 10%;
+  color: #004E8A;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-color: #c4cbd1;
+  border-width: 1px;
+}
+#title0 {
+  font-weight: bold;
+}
+
+/*Bloque Header Layout 3*/
+.contenido13 {
+  height: 10%;
+  color: #004E8A;
+  display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+/*Bloque 1 de Layout 1*/
+.contenido11 {
+  height: 87%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#title1 {
+  padding-top: 100px;
+  color: #004E8A;
+  font-weight: bold;
+}
+.timer1 {
+  font-weight: bold;
+}
+
+/*Bloque 2 de Layout 2*/
+.contenido22 {
+  height: 77%;
+}
+
+/*Bloque 2 de Layout 3*/
+.contenido23 {
+  height: 77%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+#colapso {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+/*Bloque 2 - Logo y Barra - Layout 1, 2 y 3*/
+.contenido21 {
+  margin: 0;
+  height: 10%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.contenido21 img {
+  align-self: flex-end;
+  height: 70%;
+}
+.barra {
+  width: 100%;
+  align-self: stretch;
+  height: 30%;
+  background-color: #E95C26;
+  color: white;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
