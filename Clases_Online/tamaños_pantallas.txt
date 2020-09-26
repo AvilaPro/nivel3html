@@ -1,0 +1,18 @@
+Tamaños de Equipos: a lo Ancho en Orientacion Landscape (Horizontal)
+Mobiles S: desde 0 hasta 320px;
+Mobiles M: hasta 375px;
+Mobiles L: hasta 425px;
+Tablets: hasta 768px;
+Laptops: hasta 1024px;
+Laptops L: hasta 1440px;
+Dispositivos 4K: hasta 2560px
+
+a lo Ancho en Orientacion Portrait (Vertical)
+Generalmente para dispositivos Moviles.
+
+Media Types:
+all: todos los medios.
+screen: pantallas de ordenador o moviles.
+print: para impresoras o el modo de "vista para imprimir"
+handheld: Dispositivos de mano.
+

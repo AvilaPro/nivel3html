@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+}
+.container-grid {
+  display: grid;
+  grid-template-rows: 10% 5% 80% 5%;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 1%;
+  row-gap: 0.5em;
+  height: 100%;
+}
+.container-grid > div {
+  background-color: aqua;
+  padding: 20px 0;
+}
+.search-bar {
+  grid-column: 2 / 4;
+}
+.navbar {
+  grid-column: 1 / 5;
+}
+.movies {
+  grid-column: 1 / 5;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  justify-content: space-evenly;
+  row-gap: 1em;
+  
+}
+.mov {
+  background-color: gray;  
+}
+.footer {
+  grid-column: 1 / 5;
+}

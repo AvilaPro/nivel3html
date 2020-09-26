@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+}
+.container {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.bloq1, .bloq2, .bloq3 {
+  width: 100%;
+}
+.bloq1 {
+  background-color: orangered;
+}
+.bloq2 {
+  background-color: orange;
+}
+.bloq3 {
+  background-color: #f0ed6b;
+}
+
+@media (min-width: 600px) {
+  .bloq1 {
+    width: 60%;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .bloq2 {
+    width: 40%;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .bloq3 {
+    width: 100%;
+    -webkit-order: 3;
+    order: 3;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .bloq2 {
+    width: 20%;
+  }
+
+  .bloq3 {
+    width: 20%;
+  }
+}

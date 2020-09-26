@@ -1,0 +1,33 @@
+.container-mostly {
+  display: grid;
+}
+.container-mostly > div {
+    height: 400px;
+}
+.bloq1 {
+    background-color: orangered;
+  }
+  .bloq2 {
+    background-color: orange;
+  }
+  .bloq3 {
+    background-color: #f0ed6b;
+  }
+@media(max-width: 425px) {
+  .container-mostly {
+    grid-template-columns: auto;
+  }
+  
+  
+  
+}
+
+@media(min-width: 1024px) {
+  .container-mostly {
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+  }
+  .bloq1 {
+    grid-column: 1 / 3;
+  }
+}

@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+}
+.container-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 10% 5% 80% 5%;
+  gap: 1%;
+}
+.container-grid > div {
+  background-color: aqua;
+}
+.search-bar {
+  grid-column: 2 / 4;
+}
+.navbar {
+  grid-column: 1 / 5;
+}
+.movies {
+  grid-column: 1 / 5;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  justify-content: center;
+}
+.mov {
+  background-color: cadetblue;
+}
+.footer {
+  grid-column: 1 / 5;
+}

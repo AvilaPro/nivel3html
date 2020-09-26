@@ -1,0 +1,78 @@
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.cajita {
+  width: 150px;
+}
+.cajita img {
+  width: 150px;
+}
+.navbar {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: center;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+.perfil {
+  display: flex;
+  flex-direction: column;
+}
+.personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.personal img {
+  width: 50px;
+  border-radius: 50%;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.front {
+  display: flex;
+  justify-content: center;
+}
+.front img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.proyectos {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar a {
+    width: 100%;
+    margin: 0;
+  }
+  .titulo, .vacio {
+    display: none;
+  }
+  section {
+    flex-direction: column;
+  }
+}

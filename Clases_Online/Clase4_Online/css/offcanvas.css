@@ -1,0 +1,65 @@
+html , body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  display: block;
+  height: inherit;
+}
+.conatiner div {
+  height: inherit;
+}
+.c1, .c3 {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.4s ease-out;
+  z-index: 1;
+  background-color: chartreuse;
+}
+.c1 {
+  transform: translate(-250px,0);
+}
+.c2 {
+  width: 100%;
+  position: absolute;
+  background-color: darkgreen;
+  height: 100%;
+}
+.c3 {
+  left: 100%;
+}
+
+.c1 .open {
+  transform: translate(0,0);
+}
+
+@media(min-width: 600px) {
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .c1 {
+    position: relative;
+    transition: none 0s ease-out;
+    transform: translate(0,0);
+  }
+  .c2 {
+    position: static;
+  }
+}
+
+@media(min-width: 900px) {
+  body {
+    overflow-x: auto;
+  }
+  .c3 {
+    position: relative;
+    left: auto;
+    transition: none 0s ease-out;
+    transform: translate(0,0);
+  }
+}

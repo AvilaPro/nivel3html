@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+}
+.container > div {
+    height: 400px;
+}
+.bloq1 {
+  background-color: orangered;
+}
+.bloq2 {
+  background-color: orange;
+}
+.bloq3 {
+  background-color: #f0ed6b;
+}
+/*Moviles*/
+@media(max-width: 425px) {
+  .container {
+    grid-template-columns: auto;
+  }
+}
+/*Tablets*/
+@media(min-width:426px) {
+  .container {
+    grid-template-columns: auto;
+  }
+}
+/*Laptops*/
+@media(min-width: 768px) {
+  .container {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  .bloq1 {
+    grid-column: 1 / 2;
+  }
+  .bloq2 {
+    grid-column: 2 / 5;
+  }
+  .bloq3 {
+    grid-column: 1 / 5;
+  }
+}
+/*Desktop*/
+@media(min-width: 1024px) {
+  .container-mostly {
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+  }
+  .bloq1 {
+    grid-column: 1 / 2;
+  }
+  .bloq2 {
+    grid-column: 2 / 4;
+  }
+  .bloq3 {
+    grid-column: 4 / 5;
+  }
+}

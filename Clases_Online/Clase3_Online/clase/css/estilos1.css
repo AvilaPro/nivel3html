@@ -1,0 +1,15 @@
+.contenedor {
+  background-color: green;
+  display: grid;
+  grid-template-areas: "area area area area";
+  grid-gap: 10px;
+  padding: 10px;
+}
+.contenedor > div {
+  background-color: greenyellow;
+  text-align: center;
+  padding: 30px 0;
+}
+.item1 {
+  grid-area: area;
+}
