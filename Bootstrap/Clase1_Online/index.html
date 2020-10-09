@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap 1</title>
+</head>
+<body>
+  <div class="container" style=" height: 200px;">
+    <div class="row">
+      <div id="test" class="col">col-sm</div>
+      <div id="test" class="col">col-md</div>
+      <div id="test" class="col">col-lg</div>
+      <div id="test" class="col">col-xl</div>
+    </div>
+    <div id="row" class="row justify-content-around align-items-center">
+      <div id="test" class="col-2">1</div>
+      <div id="test" class="col-2">2</div>
+      <div id="test" class="col-2">3</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="block" class="col-lg-4 col-md-6 col-sm-12">1</div>
+      <div id="block"class="col-lg-4 col-md-6 col-sm-12">2</div>
+      <div id="block"class="col-lg-4 col-md-6 col-sm-12">3</div>
+      <div id="block"class="col-lg col-md-6 col-sm-12">4</div>
+    </div>
+  </div>
+  <!-- <div class="container-fluid" style="background-color: crimson; height: 200px;">
+    
+  </div>
+  <div class="container-md" style="background-color: darkgreen; height: 200px;">
+
+  </div> -->
+
+  <!-- Etiquetas de encabezados: <h1></h1> hasta <h6></h6>
+  Etiquetas de parrafos: <p></p>
+  Etiquetas de bloques de texto: <blockquote></blockquote>
+
+  Alineacion de texto: text-left text-center y text-right
+  Salto de palabra: text-break
+
+  Color de texto: text-"color"
+  Variables de "color" que nos ofrece Bootstrap:
+  -primary; -secondary; -success; -info; -warning; -danger; -white; -dark; -body; light; -muted
+
+  Otros cambios a tipografia:
+  mark: resaltador;
+  <del></del>: tachar con una linea el texto
+  <s></s>: similar a la etiqueta del.
+  <ins></ins>:subraya pero lo trata como una insercion en el documneto
+  <u></u>: subrayar
+  <small></small>: letra pequeña
+  <strong></strong>: negrita
+  <em></em>: cursiva.
+
+  Abreviaciones:
+  <abbr title="lo que se vera al hacer hover"></abbr>: Permite abreviar. -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Probando cambios en los textos</h1>
+        <h2 class="text-primary">Texto con color primary</h2>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <p>Lorem <mark>ipsum</mark>  dolor <del>sit amet consectetur</del> , <s>adipisicing</s> elit. <ins>Dicta numquam</ins> <u>iusto esse doloribus!</u> <small>Natus animi numquam deleniti iste</small> alias <strong>quam corporis</strong> saepe hic ipsam? <em>Aliquid odio repellendus nemo corrupti beatae</em>.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <blockquote class="blockquote text-center">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ad dolor illum tempore consectetur. Qui iure impedit, molestias ut laborum sed. Magnam, libero eveniet impedit vitae labore ea beatae magni.</p>
+          <footer class="blockquote-footer">Autor Desconocido por la humanidad</footer>
+        </blockquote>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <blockquote class="blockquote text-right">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ad dolor illum tempore consectetur. Qui iure impedit, molestias ut laborum sed. Magnam, libero eveniet impedit vitae labore ea beatae magni.</p>
+          <footer class="blockquote-footer">Autor Desconocido por la humanidad</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- Las clases se denominan utilizando el formato {property}{sides}-{size}de xsy {property}{sides}-{breakpoint}-{size}para sm, md, lg, y xl.
+
+  Donde la propiedad es una de:
+
+  m - para clases que establecen margin
+  p - para clases que establecen padding
+  Donde lados es uno de:
+
+  t- para clases que establecen margin-topopadding-top
+  b- para clases que establecen margin-bottomopadding-bottom
+  l- para clases que establecen margin-leftopadding-left
+  r- para clases que establecen margin-rightopadding-right
+  x- para clases que establecen tanto *-lefty*-right
+  y- para clases que establecen tanto *-topy*-bottom
+  en blanco: para clases que establecen a margino paddingen los 4 lados del elemento
+  Donde el tamaño es uno de:
+
+  0- para clases que eliminan el margino paddingconfigurándolo en0
+  1- (por defecto) para clases que establecen el margino paddingen$spacer * .25
+  2- (por defecto) para clases que establecen el margino paddingen$spacer * .5
+  3- (por defecto) para clases que establecen el margino paddingen$spacer
+  4- (por defecto) para clases que establecen el margino paddingen$spacer * 1.5
+  5- (por defecto) para clases que establecen el margino paddingen$spacer * 3
+  auto- para clases que configuran el marginen automático -->
+
+  <div class="container mt-4 bg-warning">
+    <div class="row">
+      <div class="col mx-auto bg-warning" style="height: 200px; width: 200px;"></div>
+    </div>
+  </div>
+  <div class="col mx-auto bg-warning" style="height: 200px; width: 200px;"></div>
+
+  <div class="container">
+    <div class="row mx-md-n5">
+      <div class="col px-md-5">
+        <div class="p-4 bg-primary">Texto</div>
+      </div>
+      <div class="col px-md-5">
+        <div class="p-4 bg-danger">Texto</div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
